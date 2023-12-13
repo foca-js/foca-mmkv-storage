@@ -22,4 +22,5 @@ const createMmkvStorage = (opts: MMKVConfiguration): StorageEngine => {
 
 export const mmkvStorage = createMmkvStorage({
   id: 'foca-storage',
+  encryptionKey: 'c521e48',
 });
