@@ -1,12 +1,12 @@
 {
   "name": "foca-mmkv-storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "git@github.com:foca-js/foca-mmkv-storage.git",
   "keywords": [
     "redux-persist",
     "react-native-persist"
   ],
-  "description": "Foca持久化react-native引擎",
+  "description": "react-native端的持久化引擎，基于react-native-mmkv",
   "contributors": [
     "夜葬 <fanwenhua1990@gmail.com> (https://github.com/geekact)"
   ],
