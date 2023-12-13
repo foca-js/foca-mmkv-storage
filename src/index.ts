@@ -1,8 +1,8 @@
-import * as MMKV from 'react-native-mmkv';
+import { MMKV, type MMKVConfiguration } from 'react-native-mmkv';
 import type { StorageEngine } from 'foca';
 
-const createMmkvStorage = (opts: MMKV.MMKVConfiguration): StorageEngine => {
-  const mmkv = new MMKV.MMKV(opts);
+const createMmkvStorage = (opts: MMKVConfiguration): StorageEngine => {
+  const mmkv = new MMKV(opts);
 
   return {
     getItem: (key) => {
